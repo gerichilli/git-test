@@ -17,11 +17,26 @@ git config --global user.mail "your mail"
 git clone "Paste URL here"
 ```
 
-- Tạo project trên github -> clone
-- Tạo local project -> push lên github
+- Create github repository
 
-## 4.
+  ```
+  git clone REPOSITORY_URL
+  git status
+  git add .
+  git commit -m "content"
+  git push -u origin main
+  ```
 
-```
-git status
-```
+- Create local project -> push lên github repository
+
+  - Create repository
+
+  ```
+  git init
+  git status
+  git add .
+  git commit -m "content"
+  git branch -M main
+  git remote add origin https://github.com/gerichilli/git-test.git
+  git push -u origin main
+  ```
