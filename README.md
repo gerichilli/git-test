@@ -41,6 +41,8 @@ git clone "Paste URL here"
   git push -u origin main
   ```
 
+  <<<<<<< HEAD
+
 ## 3. Https vs SSH
 
 ```
@@ -72,4 +74,4 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 - `git pull` = `git fetch` + `git merge`
 - `git merge`
 - `git checkout -b new-feature`: tạo một branch mới có tên là new-feature và switch đến branch mới này
-- `git branch`: Check list các branch
+- # `git branch`: Check list các branch
